@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/luankefei/s3-uploader.git"
   },
-  "author": "",
+  "author": "marafei",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luankefei/s3-uploader/issues"
