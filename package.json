@@ -10,7 +10,7 @@
     "coverage": "nyc --exclude dist/test --reporter=html npm run test:all",
     "lint": "tslint 'src/**/*.ts' 'test/**/*.test.ts'",
     "start": "node dist/src/index.js",
-    "start:dev": "tsc-watch --onSuccess 'node dist/src/index.js'",
+    "start:dev": "tsc-watch --onSuccess 'node dist/index.js'",
     "test": "npm run build && mocha --exit --recursive dist/test/unit",
     "test:integration": "npm run build && mocha --exit --recursive dist/test/integration",
     "test:all": "npm run build && mocha --exit --recursive dist/test"
