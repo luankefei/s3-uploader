@@ -1,0 +1,22 @@
+{
+  "name": "s3-uploader",
+  "version": "1.0.0",
+  "description": "uplaoder static files to aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luankefei/s3-uploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luankefei/s3-uploader/issues"
+  },
+  "homepage": "https://github.com/luankefei/s3-uploader#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
